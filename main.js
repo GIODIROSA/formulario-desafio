@@ -41,7 +41,7 @@ function validar() {
       alert("El teléfono debe ser solo números");
       return false;
     } else {
-      alert("Todo bien, gracias: " + nombre.value);
+      alert("Todo bien, gracias: " + "" + nombre.value + "" + apellidos.value+ ""+ "y tu usuario es " + usuario.value);
     }
   }
 
